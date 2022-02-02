@@ -40,3 +40,7 @@ alias ebi="cd ~/code/top-secret"
 
 #custom
 alias dnsy="sudo nano /etc/resolv.conf"
+
+if type -q exa
+	alias ll="exa --icons --git -lhgmUa"
+end
