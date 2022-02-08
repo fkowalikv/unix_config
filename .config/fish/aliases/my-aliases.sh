@@ -1,3 +1,5 @@
+#!/bin/fish
+
 #git
 alias gs="git status"
 alias gfc="git fetch"
@@ -23,11 +25,10 @@ end
 
 #merge requests
 function gmr
-	set org "org"
 	set branch (git rev-parse --abbrev-ref HEAD)
 	set repo_dir (git rev-parse --show-toplevel)
 	set repo (basename $repo_dir)
-	set url "https://bitbucket.org/$org/$repo/pull-requests/new?source=$branch&t=1"
+	set url "https://bitbucket.org/$BB_ORG/$repo/pull-requests/new?source=$branch&t=1"
 
 	echo -e "\n --- New MR URL here:\n --- $url\n"
 end

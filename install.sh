@@ -1,5 +1,8 @@
 #!/bin/fish
 
+# load global variables
+source (dirname "$0")/.config/fish/vars/global.sh
+
 echo "Applying .my-aliases..."
 cp .my-aliases.sh ~/ -r
 cp .config ~/ -r
