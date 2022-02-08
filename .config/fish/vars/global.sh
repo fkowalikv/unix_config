@@ -1,3 +1,3 @@
 #!/bin/fish
 
-set BB_ORG "expondo"
+set BB_ORG "expondopl"
