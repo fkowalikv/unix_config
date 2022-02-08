@@ -1,0 +1,10 @@
+*
+
+!.git/
+!.gitignore
+
+!install.sh
+!.config/fish/*
+!ljtf/*
+
+!*/
