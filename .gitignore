@@ -1,5 +1,7 @@
+# ignore everything
 *
 
+# except these
 !.git/
 !.gitignore
 
@@ -7,4 +9,8 @@
 !.config/fish/*
 !ljtf/*
 
+# do not ignore dirs with subdirs
 !*/
+
+# ignore also those specific dirs
+code
