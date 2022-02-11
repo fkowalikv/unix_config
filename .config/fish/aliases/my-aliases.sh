@@ -7,6 +7,7 @@ alias dce="dc exec"
 alias dcu="dc up -d"
 alias dcd="dc down"
 alias dcb="dc up -d --build"
+alias dcs="dc stop"
 alias dcrr="dc restart"
 
 #git
