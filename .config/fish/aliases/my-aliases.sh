@@ -9,6 +9,7 @@ alias dcd="dc down"
 alias dcb="dc up -d --build"
 alias dcs="dc stop"
 alias dcrr="dc restart"
+alias dkall="docker kill (docker ps -q)"
 
 #git
 alias gs="git status"
