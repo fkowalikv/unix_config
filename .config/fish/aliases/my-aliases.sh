@@ -1,7 +1,7 @@
 #!/bin/fish
 
 #docker
-alias dc="docker compose"
+alias dc="docker-compose"
 alias dcr="dc run"
 alias dce="dc exec"
 alias dcu="dc up -d"
