@@ -28,6 +28,7 @@ alias gr="git reset"
 alias gpdo="git push --delete origin"
 
 #branches
+alias dev="gco develop"
 alias stage="gco stage"
 alias master="gco master"
 function ft
