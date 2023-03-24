@@ -31,6 +31,7 @@ alias gpdo="git push --delete origin"
 alias dev="gco develop"
 alias stage="gco stage"
 alias master="gco master"
+alias main="gco main"
 function ft
 	gco feature/$argv
 end
