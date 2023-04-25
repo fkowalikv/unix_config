@@ -1,5 +1,8 @@
 #!/bin/fish
 
+#setup
+alias linstall="~/install.sh && clear"
+
 #docker
 alias dc="docker-compose"
 alias dcr="dc run"
