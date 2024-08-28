@@ -12,7 +12,8 @@ alias dcd="dc down"
 alias dcb="dc up -d --build"
 alias dcs="dc stop"
 alias dcrr="dc restart"
-alias dkall="docker kill (docker ps -q)"
+alias dkall_old="docker kill (docker ps -q)"
+alias dkall="docker stop (docker ps -a -q)"
 
 #git
 alias gs="git status"
