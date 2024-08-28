@@ -15,6 +15,9 @@ alias dcrr="dc restart"
 alias dkall_old="docker kill (docker ps -q)"
 alias dkall="docker stop (docker ps -a -q)"
 
+#ddev
+alias dds="ddev poweroff && ddev start"
+
 #git
 alias gs="git status"
 alias gfc="git fetch"
