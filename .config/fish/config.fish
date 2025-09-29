@@ -17,3 +17,6 @@ function printtime --on-event fish_postexec
 	echo
 	echo took (set_color yellow)(expr $CMD_DURATION / 1000)(set_color normal)s
 end
+
+zoxide init fish --cmd cd | source
+
